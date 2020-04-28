@@ -1,7 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1;
+  background-image: url("https://www.wallpapers4u.org/wp-content/uploads/dot_lights_light_texture_background_50442_1920x1080.jpg");
 }
 
 textarea {
@@ -11,36 +12,43 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  color: midnightblue;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(255, 255, 255);
   border-radius: 0;
   border-bottom: 10px solid black;
+  background-image: url("https://cutewallpaper.org/21/wood-wallpaper-1920x1080/Black-wood-texture-wallpaper-1920x1080-black-wood-texture-.jpg");
+  /* background-image: url("https://sf.co.ua/14/03/wallpaper-1615901.jpg"); */
 }
 
 .description {
   white-space: pre-wrap;
+  border-radius: 25px;
+  border: 2px solid rgb(65, 65, 65);
+
 }
 
 .time-block {
   text-align: center;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
-  ;
+
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #00000075;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid rgb(65, 65, 65);
 }
 
 .past {
@@ -59,11 +67,12 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border: 2px solid rgb(65, 65, 65);
+  /* border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px; */
   background-color: #06AED5;
   color: white;
+  border-radius: 25px;
 }
 
 .saveBtn i:hover {
